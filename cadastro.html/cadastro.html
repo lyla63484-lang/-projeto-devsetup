@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html long="pt-BR"></html>
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewpot" content="width=device-wigth, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>cadastro de clientes</h1>
+        <p>crie sua conta para receber novidades e promoçoes</p>
+        <a href="index.html">voltar para a pagina inicial</a>
+    </header>
+</body>
+
+<main>
+    <section>
+        <form>
+        <label for="nome">nome completo</label>
+        <br>
+        <input 
+        type="text"
+        id="nome"
+        name="nome"
+        pleceholder="digite seu nome completo"
+        required>
+        <br><br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email"
+        id="email"
+        name="email"
+        placeholder="digite seu email"
+        required>
+        <br><br>
+
+        <label>nivel do cliente</label><br><br>
+        <input 
+        type="radio"
+        id="comum"
+        name="nivel"
+        value="comum">
+        <label for="comum">cliente comum</label>
+        <input 
+        type="radio"
+        id="empresa"
+        name="nome">
+        <label for="empresa">empresa (CNPJ)</label><br><br>
+        <label for="interesse">area de interesses</label>
+        <select name="interesse" id="interesse"></select>
+        <option value="hardware">hardware</option>
+        <option value="perifericos">perifericos</option>
+        <option value="desenvolvimento">desenvolvimento</option>
+        <select><br><br>
+            <button 
+            type="submit">enviar cadastro</button>
+        </select>
+        </form>
+    </section>
+</main>
